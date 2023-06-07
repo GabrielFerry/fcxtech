@@ -1,0 +1,82 @@
+<html>
+<body>
+<input type="text" value="Aguante San Lorenzo" 
+disabled =disabled />
+<p><input type="text"
+value="Buscar..." />
+</p>
+<p><input type="checkbox"
+name="temas" />html
+<input type="checkbox"
+name="temas"  />css
+</p>
+<p>
+<h1><input type="checkbox"
+checked="checked" />html
+<input type="checkbox"
+checked="checked" />css
+<input type="checkbox"
+value="html" />html
+<input type="checkbox"
+value="css" />css
+</h1>
+</p>
+<p><input type="radio"
+name="tema" />html
+<input type="radio"
+name="tema" />css
+</p>
+<p>
+<input type="submit">
+</p>
+<select>
+<option value="HTML">
+HTML
+</option>
+<option value="CSS">
+css
+</option>
+</select>
+<p>
+<select multiple="multiple">
+<option value="HTML">
+HTML
+</option>
+<option value="CSS">
+css
+</option>
+</select></p>
+<p>
+<select>
+<optgroup label="HTML">
+<option value="tables"> Tablas</option>
+<option value="forms"> Formularios</option>
+</optgroup>
+<optgroup label="CSS">
+<option value="tables"> Tablas</option>
+<option value="forms"> Formularios</option>
+</optgroup>
+</select>
+</p>
+<p>
+<form>
+<label for="html">HTML</label>
+<input type="radio" name="tema" id="html" />
+<br />
+<label for="css">CSS</label>
+<input type="radio" name="tema" id="css" />
+</form>
+</p>
+<p>
+<form>
+<fieldset><legend>Perfil</legend>
+Nombre:<input type="text"><br/>
+Email:<input type="text"><br/>
+</fieldset>
+<fieldset><legend>Temas</legend>
+<input type="checkbox">HTML
+<input type="checkbox">CSS
+</fieldset>
+</form></p>
+</body>
+</html>
